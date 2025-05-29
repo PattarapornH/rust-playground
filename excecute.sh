@@ -1,4 +1,4 @@
 #!/bin/bash
-rustc "$1.rs" 
-"./$1"
-rm $1
+rustc "$1.rs" -o run
+./run
+rm run
